@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 # loading the saved model
-loaded_model = pickle.load(open('Trained_Diabities_model.pkl', 'rb'))
+loaded_model = pickle.load(open('C:/Users/harshit computer/Desktop/Diabities/models/Trained_Diabities_model.pkl', 'rb'))
 
 # Create a sidebar with a title and some text
 with st.sidebar:
